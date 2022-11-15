@@ -23,7 +23,7 @@ const Dialog = (props) => {
         <p className="dialog__description">Please sign in to continue...</p>
         <div className="dialog__btns">
           <Button onClick={hideDialog} className="dialog__btn">
-            Cancle
+            Cancel
           </Button>
           <Button
             onClick={moveToLogin}
